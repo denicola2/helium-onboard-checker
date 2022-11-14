@@ -1,6 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Usage: ./checker.sh 14rb2UcfS9U89QmKswpZpjRCUVCVu1haSyqyGY486EvsYtvdJmR "SyncroB.it" user@gmail.com
 
+cd /path/to/script # Replace with absolute path to the script, otherwise may cause issues with cron
 maker_id=$1
 maker_name=$2
 mail_to=$3
